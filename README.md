@@ -1,6 +1,7 @@
-# Convoy Code Challenge: Service Suggestions
+# Convoy Code Challenge
+## Service Suggestions
 
-## DESCRIPTION:
+### DESCRIPTION:
 
 We've just added a Twitter integration in Convoy, which gives us the ability to identify twitter profiles a user follows that also have a Convoy profile.
 So, this challenge is about suggesting new services to our users!
@@ -14,7 +15,7 @@ _Your task is to write a program which finds a list of suggested services for a 
 
 Since this is just a protype, and it will be meant for an API endpoint, a simple CLI will suffice that returns an of array of suggested services.
 
-## SAMPLE INPUT FILE:
+### SAMPLE INPUT FILE:
 
 The user service runs a cron job every night at 0800 GMT, pings the Twitter API, and produces a file from the user database as such:
 Each line of the file represents one user. The lines are delimited by a colon `:` into four parts: user id, user real name, list of twitter users they follow, and list of services that user has requested. The items in each part are delimited by a comma `,`. Note that some users either don't follow any other Convoy users on Twitter, or have not ordered any services yet.
@@ -33,7 +34,7 @@ social_connections.txt
 10:Jon Stewart:Lana Del Ray,Beyonce,Elon Musk,Bono,Eric Clapton,Taylor Swift,Barack Obama,Tim Cook:iCloud Photo Training
 ```
 
-## EXAMPLE USAGE OF CLI
+### EXAMPLE USAGE OF CLI
 
 Node.js sample for user id `3` *Feel free to code this in any language of your choice*
 ```
