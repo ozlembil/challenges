@@ -56,13 +56,13 @@ Sample return
 
 ### Solutions
 
-**Node.js Solution** *@scotthasbrouck*
+**Node.js Solution** [*@scotthasbrouck*](https://github.com/scotthasbrouck)
 
 ```
 $ node social_suggestions 1
 ```
 
-**Python Solution** *@jonoleson*
+**Python Solution** [*@jonoleson*](https://github.com/jonoleson)
 
 ```
 python social_suggestions 1
