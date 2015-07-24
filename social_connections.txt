@@ -1,0 +1,10 @@
+1:Ross Perot:Taylor Swift,Mitt Romney,Beyonce,Robert Plant:HP Laser Printer Setup,Nest Thermostat Setup,iCloud Photo Training
+2:Barack Obama:Jon Stewart,Beyonce,Ross Perot,Lana Del Ray:iPad Setup,Tractor Feed Printer Lubrication,Nest Thermostat Setup
+3:Lana Del Ray:Beyonce,Barack Obama,Jon Stewart:Tractor Feed Printer Lubrication,iPad Setup,HP Laser Printer Setup
+4:Robert Plant:Lana Del Ray,Barack Obama,Bono,John Bonham:iPad Setup,Garage Band Training,iCloud Photo Training
+5:Mitt Romney:John Bonham,Robert Plant,Ross Perot:
+6:Erwin Schrodinger:David Bohm,Linus Pauling,Richard Feynman,Bill Nye the Science Guy:iPad Setup,Lamda Physik Dye Laser Training,Tractor Feed Printer Lubrication
+7:John Bonham::Garage Band Training
+8:Taylor Swift:Lana Del Ray,Beyonce,Elon Musk:Garage Band Training,iCloud Photo Training
+9:Beyonce:Lana Del Ray,Taylor Swift,Bono,Eric Clapton:Galaxy S5 Training,Netflix Setup and Training,Nest Thermostat Setup
+10:Jon Stewart:Lana Del Ray,Beyonce,Elon Musk,Bono,Eric Clapton,Taylor Swift,Barack Obama,Tim Cook:iCloud Photo Training
