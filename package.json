@@ -1,0 +1,17 @@
+{
+  "name": "code_challenge_solution",
+  "version": "0.0.1",
+  "description": "solution to convoy's code challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott HAsbrouck",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "fs": "0.0.2",
+    "ramda": "^0.17.1"
+  }
+}
+
