@@ -6,7 +6,7 @@
 We've just added a Twitter integration in Convoy, which gives us the ability to identify Twitter profiles a user follows that also have a Convoy profile.
 So, this challenge is about suggesting new services to our users!
 
-The front end team already has a React component that we're going to put in the dashboard in a few places. What we need is a new API end point that simply returns an array of the top 5 suggested services, ranked most relavent to least relavent (relevence defined below).
+The front end team already has a React component that we're going to put in the dashboard in a few places. What we need is a new API end point that simply returns an array of the top 4 suggested services, ranked most relavent to least relavent (relevence defined below).
 
 You are given a list of Convoy users, Twitter users that person follows, and services that user has requested, themselves, on Convoy.
 To help users find the most relavent services, we suggest to them services that their Twitter followers have also requested. The services are ranked (1) firstly, by the number of their followers that have ordered them, and (2) secondly, alphabetically.
