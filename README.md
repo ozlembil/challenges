@@ -6,7 +6,9 @@
 We've just added a Twitter integration in Convoy, which gives us the ability to identify Twitter profiles a user follows that also have a Convoy profile.
 So, this challenge is about suggesting new services to our users!
 
-### Engineering challenge
+---
+
+## Engineering challenge
 The front end team already has a React component that we're going to put in the dashboard in a few places. What we need is a new API end point that simply returns an array of the top 4 suggested services, ranked most relavent to least relavent (relevence defined below).
 
 You are given a list of Convoy users, Twitter users that person follows, and services that user has requested, themselves, on Convoy.
@@ -69,7 +71,9 @@ $ node social_suggestions 1
 python social_suggestions 1
 ```
 
-### Design Challenge
+---
+
+## Design Challenge
 
 Given the API and Twitter integration described above, your task is to design the UI for the React component that will be used ubiqitously across the Convoy platform. The component should be responsive, as it will be used in our mobile apps, and on all desktop environments.
 
@@ -79,3 +83,13 @@ Deliverables:
 - The CSS that implements your design, with the primary brand colors: `#8ed700`, `#84c800`, and `#76b7e4`
 
 Since this will be turned into a React component, submit the final UI as a single `html` file, with all the required styles in the `<head>`. You are free to use any (or none) CSS (and CSS transitions) or HTML libraries you like, but don't worry about JS transitions.
+
+---
+
+## Submission
+
+For any portion of your project that requires a computer and text files, make a pull request from this repo, and include a commit history with comments.
+
+**Remember**! The goal here is not perfection, but to see how you think through a problem and come to an interesting solution.
+
+Happy hacking.
