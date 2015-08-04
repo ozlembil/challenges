@@ -1,11 +1,12 @@
-# Convoy Code Challenge
-## Service Suggestions
+# Convoy Challenges
+## New Feature: Service Suggestions
 
 ### Description:
 
 We've just added a Twitter integration in Convoy, which gives us the ability to identify Twitter profiles a user follows that also have a Convoy profile.
 So, this challenge is about suggesting new services to our users!
 
+### Engineering challenge
 The front end team already has a React component that we're going to put in the dashboard in a few places. What we need is a new API end point that simply returns an array of the top 4 suggested services, ranked most relavent to least relavent (relevence defined below).
 
 You are given a list of Convoy users, Twitter users that person follows, and services that user has requested, themselves, on Convoy.
@@ -54,7 +55,7 @@ Sample return
 1. The same service should never be returned twice in the array.
 1. The array should contain four suggested services, or less.
 
-### Solutions
+### Solutions to date
 
 **Node.js Solution** [*@scotthasbrouck*](https://github.com/scotthasbrouck)
 
@@ -67,3 +68,14 @@ $ node social_suggestions 1
 ```
 python social_suggestions 1
 ```
+
+### Design Challenge
+
+Given the API and Twitter integration described above, your task is to design the UI for the React component that will be used ubiqitously across the Convoy platform. The component should be responsive, as it will be used in our mobile apps, and on all desktop environments.
+
+Deliverables:
+- Screen shot of a hand drawn simple sketch of the component in a variety of environments.
+- The HTML for your design: A single `<div>` element, with any required child elements for your design
+- The CSS that implements your design, with the primary brand colors: `#8ed700`, `#84c800`, and `#76b7e4`
+
+Since this will be turned into a React component, submit the final UI as a single `html` file, with all the required styles in the `<head>`. You are free to use any (or none) CSS (and CSS transitions) or HTML libraries you like, but don't worry about JS transitions.
