@@ -88,7 +88,7 @@ Since this will be turned into a React component, submit the final UI as a singl
 
 ## Submission
 
-For any portion of your project that requires a computer and text files, make a pull request from this repo, and include a commit history with comments.
+For any portion of your project that requires a computer and text files, make a pull request from a fork this repo, and include a commit history with comments.
 
 **Remember**! The goal here is not perfection, but to see how you think through a problem and come to an interesting solution.
 
