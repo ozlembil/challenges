@@ -1,0 +1,83 @@
+<html lang="en"><head>
+    <title>Suggested Services</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+  h1 {font-size: 1.5em;}
+
+  .services {
+    font-size: 1.2em;
+    width: 80%;
+    max-width: 960px;
+    text-align: left;
+    margin: 0px auto;
+  /*auto centers the container */
+  
+  
+  -moz-column-width: 30em;
+  /* Firefox */
+  
+  -webkit-column-width: 30em;
+  /* webkit, Safari, Chrome */
+  
+  column-width: 30em;
+}
+
+
+.services ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* correct webkit/chrome uneven margin on the first column*/
+
+.services ul li {
+  border: 1px solid #eee;
+  padding: 20px;
+  color:#8293a0;
+}
+  
+.myButton {
+  float:right;
+  background-color:#8ed700;
+  -moz-border-radius:2px;
+  -webkit-border-radius:2px;
+  border-radius:2px;
+  border:1px solid #84c800;
+  display:inline-block;
+  cursor:pointer;
+  color:#fff;
+  font-family:Arial,sans-serif;
+  font-size:16px;
+  padding:5px 10px;
+  text-decoration:none;
+}
+.myButton:hover {
+  background-color:#5cbf2a;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+    </style>
+  
+  
+</head>
+<body>
+
+    
+     <div class="services">
+         <ul>
+  <li style="background-color:#76b7e4;color:white ;font-family:arial,sans serif;border:0px ">Suggested Services </li>
+            
+            <li>Icloud Photo Training <a href="#" class="myButton">Schedule</a></li>
+            <li>Garage Band Training <a href="#" class="myButton">Schedule</a></li>
+            <li>HP Laser Printer <a href="#" class="myButton">Schedule</a></li>
+            <li>Netflix Setup <a href="#" class="myButton">Schedule</a></li>
+            
+           </ul>         
+     </div>
+
+
+</body></html>
